@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         var sTotal = p / (s - r)
 
         println("Dias '$sTotal'")
+
+        //Pitagoras
        /* val mybutonsin = findViewById<Button>(R.id.my_butonsin)
         mybutonsin.setOnClickListener(){
             val text = "I'M FUCKING EPIC!!"
