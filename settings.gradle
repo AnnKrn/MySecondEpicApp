@@ -1,0 +1,2 @@
+rootProject.name='My Second Second Epic App'
+include ':app'
