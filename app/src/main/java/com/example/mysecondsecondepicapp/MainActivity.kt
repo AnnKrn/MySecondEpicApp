@@ -14,6 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main);
 
+        val mybutonsin = findViewById<Button>(R.id.my_butonsin)
+        mybutonsin.setOnClickListener(){
+            val text = "I'M FUCKING EPIC!!"
+            val duration = Toast.LENGTH_SHORT
+            val toast = Toast.makeText(applicationContext, text, duration)
+            toast.show()
+        }
+
         //Gauss
         var a : Int = 1583
         
@@ -114,14 +122,7 @@ class MainActivity : AppCompatActivity() {
         for (i in m..n) {
             println("Pitagoras '$i'")
         } */
-       /* val mybutonsin = findViewById<Button>(R.id.my_butonsin)
-        mybutonsin.setOnClickListener(){
-            val text = "I'M FUCKING EPIC!!"
-            val duration = Toast.LENGTH_SHORT
-            val toast = Toast.makeText(applicationContext, text, duration)
-            toast.show()
-        }
-
+       /*
         var a : Int = 5
         var b : Int = 3
         var n : Int = 11
